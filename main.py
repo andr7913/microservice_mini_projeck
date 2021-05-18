@@ -6,3 +6,6 @@ from Model.Product import Product
 
 p1 = Product()
 print(p1.Name)
+
+order = Order()
+print(order.OrderId)

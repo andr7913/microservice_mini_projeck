@@ -1,5 +1,35 @@
 class Order:
-    OrderId
-    Date
-    Product
-    Quantity
+
+    def __init__(self):
+        self.OrderId = 1
+        self.Date
+        self.Product
+        self.Quantity
+
+    def setOrderId(self, id):
+        self.OrderId = id
+        return self.OrderId
+
+    def getOrderId(self):
+        return self.OrderId
+
+    def setDate(self, date):
+        self.Date = date
+        return self.Date
+
+    def getDate(self):
+        return self.Date
+
+    def setProduct(self, product=Product()):
+        self.Product = product
+        return self.Product
+
+    def getProduct(self):
+        return self.Product
+
+    def setQuantity(self, quantity):
+        self.Quantity = quantity
+        return self.Quantity
+
+    def getQuantity(self):
+        return self.Quantity
