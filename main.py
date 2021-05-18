@@ -2,15 +2,16 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from Model.Product import Product
 from Model.Order import Order
+from Model.Product import Product
 
-p1 = Product()
-print(p1.Name)
+# laver et product
+prod = Product(1,"hans",123,2,1)
+#laver en order
+order = Order(1,"12-12-2000",prod,3)
 
-order = Order()
-print(order.OrderId)
+print(order.getOrderId())
 
-p = Product()
+p = Product(2,"otto",123,2,1)
 p.setName("Ole")
 print(p.getName())

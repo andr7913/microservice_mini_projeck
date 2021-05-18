@@ -1,10 +1,10 @@
 class Order:
 
-    def __init__(self):
-        self.OrderId = 1
-        self.Date
-        self.Product
-        self.Quantity
+    def __init__(self,orderId,date,product,quantity ):
+        self.OrderId = orderId
+        self.Date = date
+        self.Product = product
+        self.Quantity= quantity
 
     def setOrderId(self, id):
         self.OrderId = id
@@ -20,7 +20,7 @@ class Order:
     def getDate(self):
         return self.Date
 
-    def setProduct(self, product=Product()):
+    def setProduct(self, product):
         self.Product = product
         return self.Product
 

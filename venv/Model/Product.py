@@ -1,11 +1,11 @@
 class Product:
 
-  def __init__(self):
-    self.productId=0
-    self.Name = "hans"
-    self.Price = 1
-    self.ItemsInStock = 2
-    self.ItemsReserved = 1
+  def __init__(self,productId,name,price,ItemsInStock,ItemsReserved):
+    self.productId= productId
+    self.Name = name
+    self.Price = price
+    self.ItemsInStock = ItemsInStock
+    self.ItemsReserved = ItemsReserved
 
   def setProductID(self, id):
     self.productId=id
