@@ -9,3 +9,7 @@ print(p1.Name)
 
 order = Order()
 print(order.OrderId)
+
+p = Product()
+p.setName("Ole")
+print(p.getName())
