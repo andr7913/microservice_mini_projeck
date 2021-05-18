@@ -5,4 +5,6 @@
 from Model.Product import Product
 
 p1 = Product()
-print(p1.Name)
+
+p1.setName("mikkel")
+print(p1.getName())
