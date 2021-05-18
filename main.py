@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 from Model.Product import Product
 
-p1 = Product()
+p = Product()
 
-p1.setName("mikkel")
-print(p1.getName())
+p.setName("Ole")
+print(p.getName())
